@@ -1,4 +1,4 @@
-# EnvironmentDynamicType
+# @Environment Property and Dynamic Type Sizes
 
 ```swift
 struct ContentView: View {

@@ -1,5 +1,14 @@
 # @Environment Property and Dynamic Type Sizes
 
+**@Environment** is specifically there to work with SwiftUI’s own pre-defined keys; fixed properties that come from the system.
+* E.g. Accessibility, dynamic type, locale, orientation, color scheme, etc.
+
+vs.
+
+**@EnvironmentObject** allows us to create our own object and inject arbitrary values into the environment
+* E.g. @EnvironmentObject var vm: ViewModel
+
+
 ```swift
 struct ContentView: View {
     
